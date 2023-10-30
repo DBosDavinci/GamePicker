@@ -1,0 +1,100 @@
+main {
+    font-family: sans-serif;
+    margin: 0 auto;
+    width: 1000px;
+    border: 2px solid;
+    padding: 5px;
+}
+
+p {
+    font-size: 13px;
+}
+
+h1 {
+    font-size: 23px;
+}
+
+.blocks {
+    height: 250px;
+}
+
+#menu {
+    vertical-align: middle;
+    font-size: 13px;
+    height: 75px;
+    background-color: aqua;
+}
+
+.games {
+    position: relative;
+    top: 12.5px;
+    margin-left: 10px;
+    border: 1px solid;
+    padding: 15px 25px;
+    float: left;
+}
+
+#gamepicker {
+    position: relative;
+    top: 12.5px;
+    margin-right: 10px;
+    border: 1px solid;
+    padding: 15px 25px;
+    float: right;
+}
+
+#main {
+    float: left;
+    width: 75%;
+    background-color: yellow;
+}
+
+.content {
+    margin-left: 10px;
+    padding-top: 1px;
+}
+
+.tags {
+    border: 2px solid;
+    margin-left: 5px;
+    float: left;
+}
+
+#info {
+    float: left;
+    width: 25%;
+    background-color: red;
+}
+
+#screenshots {
+    margin-top: 250px;
+    height: 150px;
+    background-color: orange;
+}
+
+.screenshots {
+    border: 2px solid;
+    height: 80%;
+    width: 200px;
+    margin: 15px;
+    float: left;
+}
+
+#eisen {
+    background-color: green;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+li {
+    padding-bottom: 15px;
+    font-size: 13px;
+}
+
+#recenties {
+    font-family: serif;
+    background-color: blue;
+}
