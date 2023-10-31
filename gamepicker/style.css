@@ -1,0 +1,25 @@
+#winkelmandje{
+    display: none;
+}
+
+.unclicked{
+    background-color: green;
+}
+
+.clicked{
+    background-color: red;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 10px;
+}
+
+.itemInfo {
+    border: solid 2px;
+    display:inline;
+    padding: 5px;
+}

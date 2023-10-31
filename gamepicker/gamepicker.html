@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <div id="overzicht">
+            <h1>Overzicht</h1>
+
+            <label for="filterprijs">Prijs</label>
+            <input type="text" id="filterprijs" name="filterprijs">
+            <button onclick="filterPrijs()">Filter Prijs</button><br>
+
+            <label for="filtergenres">Genre</label>
+            <select id="filtergenres" name="filtergenres">
+                <option>All genres</option>
+            </select>
+            <button onclick="filterGenre()">Filter Genre</button><br>
+                
+            <label for="filterrating">Rating</label>
+            <input type="text" id="filterrating" name="filterrating">
+            <button onclick="filterRating()">Filter Rating</button><br>
+
+            <ul id="Gameslist">
+
+            </ul>
+
+            <button onclick="winkelmandje()">Bereken</button>
+        </div>
+        <div id="winkelmandje">
+            <h1>Winkelmandje</h1>
+
+            <ul id="winkelmandjeList">
+
+            </ul>
+
+            <button id="totaalprijs"></button>
+        </div>
+    </body>
+</html>
